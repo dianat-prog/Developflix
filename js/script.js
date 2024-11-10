@@ -22,7 +22,6 @@ function mostraPeli(arrPelis,divSection){
         imgPeli.src=url +peli.poster_path;
 
         imgPeli.alt='imagen de la pelicula '+ peli.title;
-       // backdrop_path 
     
        //elemento h3 para el titulo de la pelicula
         const tituloPeli=document.createElement('h3');
@@ -31,7 +30,7 @@ function mostraPeli(arrPelis,divSection){
         linkTitulo.textContent=peli.title;
         linkTitulo.href ="#";
         tituloPeli.appendChild(linkTitulo);
-        // tituloPeli.textContent=peli.title;
+
     
        //añadimos el elemento imagen en el div de imagen
         divImagen.appendChild(imgPeli);

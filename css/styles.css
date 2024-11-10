@@ -67,9 +67,7 @@ body,.genero-container{
   background: linear-gradient(rgb(32, 32, 48), rgb(116, 80, 86));
   border: transparent;
 }
-.genero-container{
-  background-color: transparent;
-}
+
 h1{
   font-size: 20px;
   font-weight: bolder;
