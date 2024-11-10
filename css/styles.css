@@ -1,9 +1,4 @@
 /*Reset*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,40 +51,84 @@ body {
 .genero-container {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f8f8f8;
+  border-color: tra;
+  
 }
 
 h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
+
 }
 
 
 /*Mi CSS*/
-#genero-28{
+body,.genero-container{
+  background: linear-gradient(rgb(32, 32, 48), rgb(116, 80, 86));
+  border: transparent;
+}
+.genero-container{
+  background-color: transparent;
+}
+h1{
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 30px;
+  color: rgb(240, 255, 255);
+  margin-left: 5px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: bolder;
+  padding-top: 30px;
+  color: rgb(240, 255, 255);
+}
+#genero-28,
+#genero-53,
+#genero-12{
   display: flex;
   justify-content:space-between;
   gap:10px;
   flex-wrap: wrap;
+  background-color: transparent;
+  margin-bottom: 20px;
 }
 
 .contenedor{
   display: flex;
   flex-direction: column;
   border-color: black;
-  
+  width: 170px;
+  height: 290px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-.divimg img{
+.divimg{
   width: 170px;
   height: 290px;
   
 }
+.divimg img{
+  width: 170px;
+  height: 290px;
+  cursor: pointer;
+  
+}
 
-.divtitulo h3{
+.divtitulo {
+  padding-top: 20px;
+
+
+}
+
+.divtitulo a{
   font-size: 12px;
   font-weight: bolder;
   padding-top: 20px;
+  color: rgb(240, 255, 255);
+  text-decoration: none;
+
 }
 
